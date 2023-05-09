@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="kapsayici">
+          <div class="todo_baslik ">ToDo List</div>
+          <hr class="cizgi">
+          <div class="todo_govde">
+            <form id="add-todo-form">
+              <input  id="add-todo-input" class="form-control mb-3"  type="text" placeholder="Lütfen Todo Girin"/>
+              <button id="add-btn" class="btn btn-outline-success mb-3" type="submit">Todo Ekle</button>
+            </form>
+          </div>
+          <div class="todo_govde">
+            <h5>Todo Listesi</h5>
+            <hr class="cizgi2">
+            <input id="search-input" class="form-control" type="text" placeholder="Todo Arayın" />
+            <ul id="todo-list">
+                <!-- <li class="list-item  mt-3">liste<a class="float-right" href=""><i class="
+                  todo-clear  fa fa-trash"></i></a>
+                </li> -->
+            </ul>
+            <a id="clear-button" class="btn btn-outline-danger" >Tüm Todoları Temizle</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

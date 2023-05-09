@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+body{
+    height: 100%;
+    background-color: black;
+    font-family: 'Sigmar', cursive;
+}
+.kapsayici{
+    border: 3px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px whitesmoke;
+    padding: 10px;
+    overflow: auto;
+}
+.todo_baslik{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding:10px ;
+}
+.cizgi{
+    height: 5px !important;
+    background-color: black;
+    margin-top: 0;
+}
+.cizgi2{
+    height: 3px !important;
+    background-color: black;
+}
